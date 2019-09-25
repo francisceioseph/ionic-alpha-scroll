@@ -1,21 +1,31 @@
-.ion-alpha-list.list {margin: 0;}
-ion-alpha-scroll{position: absolute;top: 0;right: 0;left:0;bottom: 0;}
+.ion-alpha-list.list {
+  margin: 0;
+}
+ion-alpha-scroll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
 .ion-alpha-list .item {
   border-right: none;
 }
-.ion-alpha-list>div:last-child .item .item-inner{
-	border-bottom: none;
+
+.ion-alpha-list > div .item .item-inner {
+  border-bottom: none;
 }
 
 .ion-alpha-sidebar {
-	margin:0;
-	padding:15px 0;
+  margin: 0;
+  padding: 15px 0;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-around;
   z-index: 999;
 }
 
@@ -30,7 +40,7 @@ ion-alpha-scroll{position: absolute;top: 0;right: 0;left:0;bottom: 0;}
   -webkit-transition: opacity 150ms ease-in-out;
   transition: opacity 150ms ease-in-out;
   opacity: 1;
-  border-radius:10px;
+  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   width: 100px;
@@ -52,6 +62,15 @@ ion-alpha-scroll{position: absolute;top: 0;right: 0;left:0;bottom: 0;}
   color: #333;
 }
 
-.alpha-list-wrapper{position: absolute;top:0;bottom:0;left: 0;right:40px;
-    overflow: hidden;}
-.alpha-list-wrapper::-webkit-scrollbar {display: none;}
+.alpha-list-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 40px;
+  overflow: hidden;
+  margin-left: 16px;
+}
+.alpha-list-wrapper::-webkit-scrollbar {
+  display: none;
+}

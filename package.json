@@ -1,6 +1,6 @@
 {
   "name": "ionic5-alpha-scroll",
-  "version": "0.2.1",
+  "version": "0.2.4",
   "author": "francisceioseph",
   "description": "Improved version of https://github.com/zwq8299174/ionic-alpha-scroll",
   "main": "dist/src/index.js",
