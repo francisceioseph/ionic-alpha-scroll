@@ -1,5 +1,5 @@
-import { ElementRef, OnChanges, OnDestroy, OnInit, TemplateRef } from '@angular/core';
-import { OrderBy } from '../pipes/order-by';
+import { ElementRef, OnChanges, OnDestroy, OnInit, TemplateRef } from "@angular/core";
+import { OrderBy } from "../pipes/order-by";
 export declare class AlphaScroll implements OnInit, OnChanges, OnDestroy {
     private elementRef;
     private orderBy;

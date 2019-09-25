@@ -1,4 +1,4 @@
-import { PipeTransform } from '@angular/core';
+import { PipeTransform } from "@angular/core";
 export declare class OrderBy implements PipeTransform {
     transform(input: any, orderConfigs?: string | Array<string>): any;
     private isSingle(orderConfigs);
