@@ -1,6 +1,6 @@
 {
-  "name": "ionic-alpha-scroll",
-  "version": "0.2",
+  "name": "ionic5-alpha-scroll",
+  "version": "0.2.0",
   "author": "francisceioseph",
   "description": "Improved version of https://github.com/zwq8299174/ionic-alpha-scroll",
   "main": "dist/src/index.js",
@@ -34,11 +34,13 @@
   "homepage": "https://github.com/francisceioseph/ionic-alpha-scroll#readme",
   "dependencies": {
     "@types/lodash": "^4.14.139",
-    "alloytouch": "^0.2.5",
-    "alloytouch-transformjs": "^0.1.0",
+    "ionic-angular": "^3.9.8",
     "lodash": "^4.17.15"
+    "alloytouch": "^0.2.6",
+    "alloytouch-transformjs": "^0.1.0",
   },
   "devDependencies": {
+    "@angular/animations": "^5.2.11",
     "@angular/common": "5.2.11",
     "@angular/compiler": "5.2.11",
     "@angular/compiler-cli": "5.2.11",
@@ -48,9 +50,8 @@
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
     "@angular/platform-server": "5.2.11",
-    "@ionic-native/core": "4.1.0",
     "@ionic/storage": "2.0.1",
-    "ionic-angular": "3.6.1",
+    "@ionic-native/core": "^5.14.0",
     "ionicons": "3.0.0",
     "rxjs": "5.5.11",
     "tslint": "^5.4.3",
