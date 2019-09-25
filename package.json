@@ -1,8 +1,8 @@
 {
   "name": "ionic-alpha-scroll",
   "version": "0.2",
-  "author": "zwq8299174",
-  "description": "一款基于ionic的索引列表插件，类似于原生APP的通讯录页面、微信的联系人页面、汽车之家的汽车品牌页面等等，首字母进行索引然后滑动。",
+  "author": "francisceioseph",
+  "description": "Improved version of https://github.com/zwq8299174/ionic-alpha-scroll",
   "main": "dist/src/index.js",
   "style": "dist/src/modules/alpha-scroll.scss",
   "typings": "dist/src/index.d.ts",
@@ -22,16 +22,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zwq8299174/ionic-alpha-scroll.git"
+    "url": "git+https://github.com/francisceioseph/ionic-alpha-scroll.git"
   },
   "keywords": [
     "ionic,ionic2,alpha scroll"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zwq8299174/ionic-alpha-scroll/issues"
+    "url": "https://github.com/francisceioseph/ionic-alpha-scroll/issues"
   },
-  "homepage": "https://github.com/zwq8299174/ionic-alpha-scroll#readme",
+  "homepage": "https://github.com/francisceioseph/ionic-alpha-scroll#readme",
   "dependencies": {
     "@types/lodash": "^4.14.139",
     "alloytouch": "^0.2.5",
